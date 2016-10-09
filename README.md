@@ -5,8 +5,10 @@ Atlassian Bamboo Workflow for [Alfred 3](http://www.alfredapp.com)
 
 Install
 ----------------
-[Install the workflow.]()
 *Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
+- Clone the project into an empty workflow
+- Adjust the config.json and add your bamboo server url and the basic auth credentials
+- Run npm install
 
 Key Combinations
 ----------------
