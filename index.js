@@ -8,11 +8,11 @@ var options = {
     method: 'GET', 
     headers: {
         'Content-Type': 'application/json',
-	'Authorization': 'Basic YmFtYm9vLXJlYWRvbmx5Om13Y1B1MjYzY1g2VkhoUHVOV3FQeHMzOQ=='
+	'Authorization': 'Basic {user:password}'
     }
 };
 
-alfy.fetch('bamboo.mytaxi.com:8085/rest/api/latest/plan?max-result=300', options).then(data => {
+alfy.fetch('bamboo.api.com/rest/api/latest/plan?max-result=300', options).then(data => {
   const list = data['plans']['plan'];
   const items = alfy
         .matches(alfy.input, list, 'name')
