@@ -7,8 +7,20 @@ Install
 ----------------
 *Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
 - Clone the project into an empty workflow
+```
+$ git clone https://github.com/codeBud7/boolf.git
+```
 - Adjust the config.json and add your bamboo server url and the basic auth credentials
+```
+{
+  "url" : "bamboo.sample.com",
+  "auth": "foo=="
+}
+```
 - Run npm install
+```
+$ npm install
+```
 
 Key Combinations
 ----------------
@@ -16,7 +28,6 @@ Key Combinations
 Key Combination        | Action
 ---------------------- | ------
 `enter`                | Open build plan in default browser
-`WIP`                | Work in progress
 
 Related
 ----------------
