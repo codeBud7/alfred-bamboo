@@ -35,7 +35,7 @@ Related
 - [yeoman alfred generator](https://github.com/SamVerschueren/generator-alfred) - Scaffold out an Alfred workflow
 - [Atlassian bamboo rest api](https://developer.atlassian.com/bamboodev/rest-apis/bamboo-rest-resources#BambooRESTResources-BuildService—AllBuilds) - Get the most out of your bamboo build server
 - Icon made by Freepik from www.flaticon.com 
-- Theme made by [Zeno Rocha](https://zenorocha.com/) https://draculatheme.com/alfred/
+- Alfred [Dracula Theme](https://draculatheme.com/alfred/) Theme by [Zeno Rocha](https://zenorocha.com/)
 
 License
 ----------------
