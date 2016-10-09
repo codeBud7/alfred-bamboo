@@ -1,9 +1,7 @@
 Atlassian Bamboo Workflow for [Alfred 3](http://www.alfredapp.com)
 ==============================
 
-<img src="https://github.com/codeBud7/boolf/blob/master/doc/screenshot.png" width="435">
-
-Uses the API of [atlassian bamboo](https://developer.atlassian.com/bamboodev/rest-apis/bamboo-rest-resources#BambooRESTResources-BuildService—AllBuilds)
+<img src="https://github.com/codeBud7/boolf/blob/master/doc/screenshot.png">
 
 Install
 ----------------
@@ -16,6 +14,7 @@ Key Combinations
 Key Combination        | Action
 ---------------------- | ------
 `enter`                | Open build plan in default browser
+`WIP`                | Work in progress
 
 Related
 ----------------
