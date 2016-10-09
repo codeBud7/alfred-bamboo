@@ -1,6 +1,8 @@
 # boolf
 > [Alfred 3](https://www.alfredapp.com) workflow to find atlassian bamboo build plans
 
+<img src="https://github.com/codeBud7/boolf/blob/master/doc/screenshot.png" width="435">
+
 Uses the API of [atlassian bamboo](https://developer.atlassian.com/bamboodev/rest-apis/bamboo-rest-resources#BambooRESTResources-BuildService—AllBuilds)
 
 ## Install
