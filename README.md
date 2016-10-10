@@ -33,9 +33,9 @@ Key Combination        | Action
 
 Related
 ----------------
-- [alfy](https://github.com/sindresorhus/alfy) - Create Alfred workflows with ease
-- [yeoman alfred generator](https://github.com/SamVerschueren/generator-alfred) - Scaffold out an Alfred workflow
-- [Atlassian bamboo rest api](https://developer.atlassian.com/bamboodev/rest-apis/bamboo-rest-resources#BambooRESTResources-BuildService—AllBuilds) - Get the most out of your bamboo build server
+- Create Alfred workflows with ease - [alfy](https://github.com/sindresorhus/alfy)
+- Scaffold out an Alfred workflow - [yeoman alfred generator](https://github.com/SamVerschueren/generator-alfred)
+- Get the most out of your bamboo build server - [Atlassian bamboo rest api](https://developer.atlassian.com/bamboodev/rest-apis/bamboo-rest-resources#BambooRESTResources-BuildService—AllBuilds)
 - Icon made by Freepik from www.flaticon.com 
 - Alfred [Dracula Theme](https://draculatheme.com/alfred/) Theme by [Zeno Rocha](https://zenorocha.com/)
 
