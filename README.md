@@ -6,9 +6,9 @@ Atlassian Bamboo Workflow for [Alfred 3](http://www.alfredapp.com)
 Install
 ----------------
 *Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
-- Clone the project into an empty workflow
+- Install by npm
 ```
-$ git clone https://github.com/codeBud7/boolf.git
+$ npm install -g boolf
 ```
 - Adjust the config.json and add your bamboo server url and the basic auth credentials
 ```
@@ -16,10 +16,6 @@ $ git clone https://github.com/codeBud7/boolf.git
   "url" : "bamboo.sample.com",
   "auth": "foo=="
 }
-```
-- Run npm install
-```
-$ npm install
 ```
 
 Key Combinations
@@ -38,6 +34,7 @@ Related
 - Get the most out of your bamboo build server - [Atlassian bamboo rest api](https://developer.atlassian.com/bamboodev/rest-apis/bamboo-rest-resources#BambooRESTResources-BuildService—AllBuilds)
 - Icon made by Freepik from www.flaticon.com 
 - Alfred [Dracula Theme](https://draculatheme.com/alfred/) Theme by [Zeno Rocha](https://zenorocha.com/)
+- Alfred workflow updater - [alfred-updater](https://github.com/SamVerschueren/alfred-updater)
 
 License
 ----------------
