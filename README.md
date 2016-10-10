@@ -28,6 +28,8 @@ Key Combinations
 Key Combination        | Action
 ---------------------- | ------
 `enter`                | Open build plan in default browser
+`ctr`                | Open deploy plan in default browser
+`cmd`                | Open branch overview in default browser
 
 Related
 ----------------
