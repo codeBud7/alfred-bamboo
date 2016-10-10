@@ -20,7 +20,7 @@ alfy.fetch(config.url + '/rest/api/latest/plan?max-result=300', options).then(da
         .map(x => ({
             title: x.name,
             subtitle: x.shortName,
-            arg: 'https://bamboo.mytaxi.com/browse/' + x.key
+            arg: 'bamboo.mytaxi.com/browse/' + x.key
         }));
 
     alfy.output(items);

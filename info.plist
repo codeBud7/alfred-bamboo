@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>name</key>
-	<string>boolf</string>
 	<key>bundleid</key>
 	<string>com.codebud7.boolf</string>
 	<key>category</key>
@@ -22,10 +20,32 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6B9547E2-29D6-45F7-9D2A-E8097D5D608B</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Open deploy plan</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>790E4041-ECFA-4E96-A84B-3C0B7C60CE1B</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open branch overview</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 	</dict>
 	<key>disabled</key>
 	<false/>
+	<key>name</key>
+	<string>boolf</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -36,7 +56,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>{query}</string>
+				<string>https://{query}</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -90,22 +110,74 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://{query}/deployments</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>6B9547E2-29D6-45F7-9D2A-E8097D5D608B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://{query}/branches</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>790E4041-ECFA-4E96-A84B-3C0B7C60CE1B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>AFADD3CE-E432-42C0-A681-7C0B9F46F6ED</key>
+		<key>6B9547E2-29D6-45F7-9D2A-E8097D5D608B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>150</integer>
+			<integer>330</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>130</integer>
 		</dict>
 		<key>6D2E3386-19BD-4790-8793-D30BB6C31F78</key>
 		<dict>
 			<key>xpos</key>
-			<integer>10</integer>
+			<integer>70</integer>
+			<key>ypos</key>
+			<integer>90</integer>
+		</dict>
+		<key>790E4041-ECFA-4E96-A84B-3C0B7C60CE1B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>330</integer>
+			<key>ypos</key>
+			<integer>250</integer>
+		</dict>
+		<key>AFADD3CE-E432-42C0-A681-7C0B9F46F6ED</key>
+		<dict>
+			<key>xpos</key>
+			<integer>330</integer>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
