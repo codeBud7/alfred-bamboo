@@ -1,4 +1,4 @@
-Atlassian Bamboo Workflow for [Alfred 3](http://www.alfredapp.com)
+boolf - Atlassian Bamboo Workflow for [Alfred 3](http://www.alfredapp.com)
 ==============================
 
 <img src="https://github.com/codeBud7/boolf/blob/master/doc/screenshot.png">
