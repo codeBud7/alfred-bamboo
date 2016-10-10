@@ -10,10 +10,10 @@ Install
 ```
 $ npm install -g boolf
 ```
-- Adjust the config.json and add your bamboo server url and the basic auth credentials
+- Adjust the config.json placed in '~/Library/Preferences/alfy-nodejs/config.json'
 ```
 {
-  "url" : "bamboo.sample.com",
+  "host" : "bamboo.sample.com",
   "auth": "foo=="
 }
 ```
