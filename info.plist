@@ -60,7 +60,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>https://{query}</string>
+				<string>http://{query}</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -122,7 +122,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>https://{query}/deployments</string>
+				<string>http://{query}/deployments</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
