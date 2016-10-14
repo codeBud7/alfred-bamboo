@@ -1,11 +1,14 @@
-boolf - Atlassian Bamboo Workflow for [Alfred 3](http://www.alfredapp.com)
+<img src="https://github.com/codeBud7/boolf/blob/master/doc/screenshot.png">
+
+boolf - Atlassian Bamboo Workflow for Alfred
 ==============================
 
-<img src="https://github.com/codeBud7/boolf/blob/master/doc/screenshot.png">
+Prerequisites
+----------------
+You need [Node.js 4+](https://nodejs.org) and [Alfred 3](https://www.alfredapp.com) with the paid [Powerpack](https://www.alfredapp.com/powerpack/) upgrade.
 
 Install
 ----------------
-*Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
 - Install by npm
 ```
 $ npm install -g boolf
