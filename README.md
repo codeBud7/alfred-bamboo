@@ -16,7 +16,7 @@ $ npm install -g boolf
 Adjust the config.json placed in '/Users/{user}/Library/Application Support/Alfred 3/Workflow Data/com.codebud7.boolf/config.json'
 ```
 {
-  "host" : ["bamboo.sample.com"],
+  "host" : ["http://bamboo.sample.com"],
   "auth": "foo=="
 }
 ```
