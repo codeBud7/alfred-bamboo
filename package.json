@@ -29,7 +29,9 @@
   "dependencies": {
     "alfred-link": "^0.1.4",
     "alfred-notifier": "^0.1.0",
-    "alfy": "^0.3.0"
+    "alfy": "^0.3.0",
+    "request": "^2.3.4",
+    "request-promise": "^4.1.1"
   },
   "devDependencies": {
     "alfy-test": "^0.3.0",
