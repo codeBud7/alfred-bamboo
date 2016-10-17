@@ -60,7 +60,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>http://{query}</string>
+				<string>{query}</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -68,6 +68,25 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>AFADD3CE-E432-42C0-A681-7C0B9F46F6ED</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>http://{query}/deployments</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>6B9547E2-29D6-45F7-9D2A-E8097D5D608B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -122,25 +141,6 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>http://{query}/deployments</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>6B9547E2-29D6-45F7-9D2A-E8097D5D608B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
 				<string>https://{query}/branches</string>
 				<key>utf8</key>
 				<true/>
@@ -169,7 +169,7 @@
 			<key>xpos</key>
 			<integer>70</integer>
 			<key>ypos</key>
-			<integer>90</integer>
+			<integer>130</integer>
 		</dict>
 		<key>790E4041-ECFA-4E96-A84B-3C0B7C60CE1B</key>
 		<dict>
@@ -187,7 +187,7 @@
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.3</string>
+	<string>1.3.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/codebud7/boolf#readme</string>
 </dict>
