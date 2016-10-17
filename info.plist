@@ -22,17 +22,17 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>6B9547E2-29D6-45F7-9D2A-E8097D5D608B</string>
+				<string>9CEFCEF1-3A3A-4814-AFA0-A6BAFE479515</string>
 				<key>modifiers</key>
 				<integer>262144</integer>
 				<key>modifiersubtext</key>
-				<string>Open deploy plan</string>
+				<string>Open deployment overview</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>790E4041-ECFA-4E96-A84B-3C0B7C60CE1B</string>
+				<string>F4070D7D-CD61-4A57-8DB5-BFEC0321087A</string>
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
@@ -68,25 +68,6 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>AFADD3CE-E432-42C0-A681-7C0B9F46F6ED</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>http://{query}/deployments</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>6B9547E2-29D6-45F7-9D2A-E8097D5D608B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -136,34 +117,58 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query=$1
+
+open $query/deployments</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
 				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://{query}/branches</string>
-				<key>utf8</key>
-				<true/>
+				<key>type</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>790E4041-ECFA-4E96-A84B-3C0B7C60CE1B</string>
+			<string>9CEFCEF1-3A3A-4814-AFA0-A6BAFE479515</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query=$1
+
+open $query/branches</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>F4070D7D-CD61-4A57-8DB5-BFEC0321087A</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>6B9547E2-29D6-45F7-9D2A-E8097D5D608B</key>
-		<dict>
-			<key>xpos</key>
-			<integer>330</integer>
-			<key>ypos</key>
-			<integer>130</integer>
-		</dict>
 		<key>6D2E3386-19BD-4790-8793-D30BB6C31F78</key>
 		<dict>
 			<key>xpos</key>
@@ -171,12 +176,12 @@
 			<key>ypos</key>
 			<integer>130</integer>
 		</dict>
-		<key>790E4041-ECFA-4E96-A84B-3C0B7C60CE1B</key>
+		<key>9CEFCEF1-3A3A-4814-AFA0-A6BAFE479515</key>
 		<dict>
 			<key>xpos</key>
 			<integer>330</integer>
 			<key>ypos</key>
-			<integer>250</integer>
+			<integer>130</integer>
 		</dict>
 		<key>AFADD3CE-E432-42C0-A681-7C0B9F46F6ED</key>
 		<dict>
@@ -185,9 +190,16 @@
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
+		<key>F4070D7D-CD61-4A57-8DB5-BFEC0321087A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>330</integer>
+			<key>ypos</key>
+			<integer>260</integer>
+		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.3.1</string>
+	<string>1.3.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/codebud7/boolf#readme</string>
 </dict>
