@@ -13,7 +13,7 @@ Install by npm
 ```
 $ npm install -g boolf
 ```
-Adjust the config.json placed in '/Users/{user}/Library/Application Support/Alfred 3/Workflow Data/com.codebud7.boolf/config.json'
+Adjust the config.json placed in '~/Library/Preferences/alfy-nodejs/config.json'
 ```
 {
   "hosts" : ["http://bamboo.sample.com"],
