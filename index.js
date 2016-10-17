@@ -33,7 +33,7 @@ Promise.map(requestList, function(obj) {
 			.map(x => ({
 				title: x.name,
 				subtitle: x.shortName,
-				arg: x.link['href']
+				arg: x['link'].href.substring(0, x['link'].href.lastIndexOf("/rest")) + '/browse/' + x['planKey'].key
 			})));
 	}
 
