@@ -27,7 +27,7 @@ Key Combinations
 Key Combination        | Action
 ---------------------- | ------
 `enter`                | Open build plan in default browser
-`ctr`                | Open deploy plan in default browser
+`ctrl`                | Open deploy plan in default browser
 `cmd`                | Open branch overview in default browser
 
 Related
@@ -41,4 +41,4 @@ Related
 
 License
 ----------------
-MIT © [Sebastian Puskeiler](twitter.com/ebud7)
+MIT © [Sebastian Puskeiler](https://twitter.com/ebud7)
