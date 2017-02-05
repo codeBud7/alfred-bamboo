@@ -3,6 +3,8 @@
 boolf - Atlassian Bamboo Workflow for Alfred
 ==============================
 
+[![NPM](https://nodei.co/npm/boolf.png)](https://nodei.co/npm/boolf/)
+
 Prerequisites
 ----------------
 You need [Node.js 4+](https://nodejs.org) and [Alfred 3](https://www.alfredapp.com) with the paid [Powerpack](https://www.alfredapp.com/powerpack/) upgrade.
