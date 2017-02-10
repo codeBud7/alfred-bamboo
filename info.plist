@@ -8,6 +8,19 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
+		<key>0DB32D92-DF64-454F-8FAF-CFFE59D49B14</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2912156C-3813-4A73-A977-19733F4E692B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>6D2E3386-19BD-4790-8793-D30BB6C31F78</key>
 		<array>
 			<dict>
@@ -37,6 +50,19 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Open branch overview</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E3C2E343-158E-4342-B245-98BA5C9F0DDC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>22194E76-09C0-44DD-AF94-F44ED048A4C6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -164,11 +190,120 @@ open $query/branches</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>boo-auth</string>
+				<key>subtext</key>
+				<string>Just add the auth to your bamboo hosts.</string>
+				<key>text</key>
+				<string>Boolf configuration</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>E3C2E343-158E-4342-B245-98BA5C9F0DDC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node configAuth.js $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>22194E76-09C0-44DD-AF94-F44ED048A4C6</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>boo-host</string>
+				<key>subtext</key>
+				<string>Just add the url of your bamboos.</string>
+				<key>text</key>
+				<string>Boolf configuration</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>0DB32D92-DF64-454F-8FAF-CFFE59D49B14</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node configHost.js $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>2912156C-3813-4A73-A977-19733F4E692B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>0DB32D92-DF64-454F-8FAF-CFFE59D49B14</key>
+		<dict>
+			<key>xpos</key>
+			<integer>70</integer>
+			<key>ypos</key>
+			<integer>560</integer>
+		</dict>
+		<key>22194E76-09C0-44DD-AF94-F44ED048A4C6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>270</integer>
+			<key>ypos</key>
+			<integer>430</integer>
+		</dict>
+		<key>2912156C-3813-4A73-A977-19733F4E692B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>270</integer>
+			<key>ypos</key>
+			<integer>560</integer>
+		</dict>
 		<key>6D2E3386-19BD-4790-8793-D30BB6C31F78</key>
 		<dict>
 			<key>xpos</key>
@@ -190,6 +325,13 @@ open $query/branches</string>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
+		<key>E3C2E343-158E-4342-B245-98BA5C9F0DDC</key>
+		<dict>
+			<key>xpos</key>
+			<integer>70</integer>
+			<key>ypos</key>
+			<integer>430</integer>
+		</dict>
 		<key>F4070D7D-CD61-4A57-8DB5-BFEC0321087A</key>
 		<dict>
 			<key>xpos</key>
@@ -199,7 +341,7 @@ open $query/branches</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.3.3</string>
+	<string>1.3.6</string>
 	<key>webaddress</key>
 	<string>https://github.com/codebud7/boolf#readme</string>
 </dict>
