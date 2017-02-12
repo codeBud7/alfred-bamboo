@@ -198,9 +198,9 @@ open $query/branches</string>
 				<key>keyword</key>
 				<string>boo-auth</string>
 				<key>subtext</key>
-				<string>Just add the auth to your bamboo hosts.</string>
+				<string>Just add the authentication to your bamboo host's.</string>
 				<key>text</key>
-				<string>alfred-bamboo configuration</string>
+				<string>alfred-bamboo auth configuration</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -242,9 +242,9 @@ open $query/branches</string>
 				<key>keyword</key>
 				<string>boo-host</string>
 				<key>subtext</key>
-				<string>Just add the url of your bamboos.</string>
+				<string>Just add your bamboo host's.</string>
 				<key>text</key>
-				<string>alfred-bamboo configuration</string>
+				<string>alfred-bamboo host configuration</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -341,7 +341,7 @@ open $query/branches</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.4.0</string>
+	<string>1.4.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/codebud7/alfred-bamboo#readme</string>
 </dict>

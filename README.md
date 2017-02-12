@@ -25,8 +25,15 @@ Adjust the config.json placed in '~/Library/Preferences/alfy-nodejs/config.json'
 
 Usage
 ----------------
-<img src="https://github.com/codeBud7/alfred-bamboo/blob/master/doc/screenshot.png">
-Find your build plan faster than ever.
+<img src="https://github.com/codeBud7/alfred-bamboo/blob/master/doc/host-config.png">
+Configure the host config of your bamboo.
+You have to adjust the config file manually at the moment. You can find the file at "~/Library/Application Support/Alfred 3/Workflow Data/com.codebud7.alfred-bamboo". Just transform the host config into a list like "hosts":["bamboo.foo.it", "bamboo.foo.com"]
+
+<img src="https://github.com/codeBud7/alfred-bamboo/blob/master/doc/auth-config.png">
+Configure the authentication to your bamboo.
+
+<img src="https://github.com/codeBud7/alfred-bamboo/blob/master/doc/workflow.png">
+Find your build plans.
 
 Key Combination        | Action
 ---------------------- | ------
