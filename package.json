@@ -1,6 +1,6 @@
 {
   "name": "alfred-bamboo",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Alfred workflow for Atlassian Bamboo plan handling.",
   "license": "MIT",
   "repository": "codebud7/alfred-bamboo",
